@@ -5,7 +5,7 @@ LAUNCH REDIS CONTAINER
 docker run \
     --name redis \
     --network redis \
-    -d redis
+    -d docker.io/library/redis
 
 LAUNCH REDIS-COMMANDER CONTAINER
 docker run \
