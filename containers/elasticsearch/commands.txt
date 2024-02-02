@@ -7,7 +7,7 @@ docker run \
     --name elasticsearch \
     -e "discovery.type=single-node" \
     -p 9200:9200 \
-    elasticsearch:8.12.0
+    docker.io/library/elasticsearch:8.12.0
 
 CREATE CURL CONTAINER
 docker run \
