@@ -14,4 +14,4 @@ docker run \
     -it \
     --network elasticsearch \
     --name curl \
-    appropriate/curl sh
+    docker.io/library/appropriate/curl sh
