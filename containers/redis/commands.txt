@@ -13,4 +13,4 @@ docker run \
     --network redis \
     -p 8081:8081 \
     -e REDIS_HOST=redis \
-    -d rediscommander/redis-commander
+    -d docker.io/library/rediscommander/redis-commander
